@@ -1,0 +1,10 @@
+Créér une application qui :> test2 : site : 192.168.11.143
+									 siège:	192.168.11.104
+									 
+I - se connecter en tant que site : * ip_site : 192.168.11.143
+								      login[starfrx, mdp]
+								    * collecter les données nécessaires : audit, objet_details, disque_details
+II - se connecter en tant que siège : * ip_siège : 192.168.11.104
+										login[finance,xxx]
+									  * insérer les données colléctés dans tables siège.								    
+Cette application sera déployé dans tout les serveurs des sites et lancé a une intervalle de temps régulier.									  
